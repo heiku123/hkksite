@@ -1,4 +1,11 @@
 <!DOCTYPE html>
+
+<nav class="lang-switch">
+  <a href="index.html">中文</a> | 
+  <a href="index-en.html">English</a> | 
+  <a href="index-de.html">Deutsch</a>
+</nav>
+
 <html lang="de">
 <head>
   <meta charset="UTF-8">
