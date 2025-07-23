@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Meine Kunst</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Willkommen</h1>
+    <p>Manman Huang, eine Künstlerin aus China.</p>
+  </header>
+
+  <main>
+    <h2>Roujin Z</h2>
+    <ul>
+      <li><a href="werk1.html">Sonnenuntergang am Meer</a></li>
+      <li><a href="werk2.html">Stadt der Schatten</a></li>
+      <li><a href="werk3.html">Traumwald</a></li>
+    </ul>
+  </main>
+</body>
+</html>
