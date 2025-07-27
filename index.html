@@ -1,15 +1,123 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>主页</title>
+  <title>Manman Huang's Website</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      background-color: #f9f9f9;
+    }
+
+    header {
+      background-color: #fff;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: flex-end;
+      gap: 15px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    header a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    h1 {
+      margin-top: 40px;
+      font-size: 36px;
+      line-height: 1.4;
+    }
+
+    .works {
+      max-width: 800px;
+      margin: 50px auto;
+    }
+
+    .work-item {
+      margin-bottom: 40px;
+    }
+
+    .work-item img {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      cursor: pointer;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    .work-item img:hover {
+      transform: scale(1.02);
+    }
+
+    .work-title {
+      display: block;
+      margin-top: 10px;
+      font-size: 20px;
+      color: #222;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    footer {
+      margin: 60px 0 20px;
+      font-size: 14px;
+    }
+
+    footer a {
+      text-decoration: none;
+      color: #666;
+    }
+
+    footer a:hover {
+      color: #000;
+    }
+  </style>
 </head>
 <body>
-  <h1>欢迎来到我的网站</h1>
-  <ul>
-    <li><a href="redherringsays.html">点击查看详情页 1</a></li>
-    <li><a href="roujinz.html">点击查看详情页 2</a></li>
-  </ul>
+
+  <!-- 页眉：语言切换 -->
+  <header>
+    <a href="#">中文</a>
+    <a href="#">English</a>
+    <a href="#">Deutsch</a>
+  </header>
+
+  <!-- 标题 -->
+  <h1>
+    Welcome<br>
+    Manman Huang's Website
+  </h1>
+
+  <!-- 作品区域 -->
+  <div class="works">
+    <div class="work-item">
+      <a href="detail1.html">
+        <img src="img/work1.jpg" alt="Work 1">
+      </a>
+      <a class="work-title" href="detail1.html">作品标题 1 / Work Title 1</a>
+    </div>
+
+    <div class="work-item">
+      <a href="detail2.html">
+        <img src="img/work2.jpg" alt="Work 2">
+      </a>
+      <a class="work-title" href="detail2.html">作品标题 2 / Work Title 2</a>
+    </div>
+  </div>
+
+  <!-- 页脚 -->
+  <footer>
+    <a href="https://www.instagram.com/manman.hkk" target="_blank">@manman.hkk</a>
+  </footer>
+
 </body>
 </html>
+
